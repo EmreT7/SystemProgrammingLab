@@ -1,0 +1,27 @@
+Sistem Programlama
+Ders 7 - Grup A
+Bu çalışmada derste gördüğümüz önbelleksiz girdi/çıktı fonksiyonları olan open, read, write, lseek, close, chmod, stat, umask 
+fonksiyonları kullanılacaktır. Hata mesajları ve standart çıktıya sonuçları yazmak için printf fonksiyonunu kullanabilirsiniz. 
+Başka bir kütüphane veya fonksiyon kullanmayınız.
+
+Yapılacak adımlar:
+
+- Aşağıda belirtilen isimde bir klasör oluşturunuz:
+    "İsminiz-Soyisminiz-Ders7-GrupA"
+- Yeni oluşturduğunuz klasöre gidiniz.
+- Aşağıda belirtilen özelliklere sahip bir C programı yazınız.
+ - Programınızın kaynak dosyasının ismi "cevap2.c" olmalı.
+ - Programınız argüman olarak üç dosya ismi alacaktır.
+  - Üç dosya ismi verilemez ise, programınız anlamlı bir hata mesajı vererek sonlanacaktır.
+ - Programınız verilen ilk isimde bir metin dosyası oluşturacaktır. Bu dosyayı siz okuyabilmeli ve yazabilmelisiniz. 
+ Diğer kullanıcılar dosyayı okuyabilmeli ama yazamamalıdır.
+ - Dosyanın içerisine aşağıda belirtilen metin yazacaktır.
+        “Bu dosyayi (isminiz) yazabilir ve diger kullanicilar okuyabilir."
+ - Programınız verilen ikinci isimde bir metin dosyası oluşturacaktır. Bu dosyayı sadece siz ve grup üyeleriniz okuyabilmeli ve yazabilmelidir. 
+ Diğer kullanıcılar dosyayı okuyabilmelidir.
+ - Dosyanın içerisine aşağıda belirtilen metin yazacaktır.
+        “Bu dosyayi ben ve grup uyelerim okuyup yazabiliriz, digerleri sadece okuyabilir."
+ - Programınız verilen üçüncü isimde bir metin dosyası oluşturacaktır. Bu dosyayı sistemdeki herkes okuyubilmeli ve yazabilmelidir.
+ - Dosyanın içerisine aşağıda belirtilen metin yazacaktır.
+        “Bu dosyayi herkes okuyup yazabilir.”
+ - Programınız üç dosyayı da kapatarak sonlanmalıdır.
